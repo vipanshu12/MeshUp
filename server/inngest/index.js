@@ -25,7 +25,7 @@ export const inngest = new Inngest({ id: "MeshUp-app" });
             profle_picture: image_url,
             username
         }
-        await  User.creat(userData)
+        await  User.create(userData)
     }
  )
 
